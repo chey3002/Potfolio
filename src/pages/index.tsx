@@ -12,7 +12,7 @@ export default function Home() {
             <NavBar/>
             <main className="flex min-h-screen flex-col items-center justify-between ml-20">
                 <HeroBanner/>
-                <ExperienciayEducacion/>
+                {/* <ExperienciayEducacion/> */}
             </main>
         </>
     );
