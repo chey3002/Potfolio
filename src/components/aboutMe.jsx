@@ -17,7 +17,7 @@ export default function AboutMe() {
                         </p>
                         <p>I consider myself a problem solver and I'm always looking for creative and efficient ways to solve the challenges that arise. In addition, I keep up to date on the latest trends and technologies in web development via Twitter, YouTube and Twitch.
                         </p>
-                        <p>I believe we are in an exciting time in the programming industry in general, and in web development in particular. I would love to continue learning and contributing to this industry, adapting to the changes ahead and doing my bit in interesting and challenging projects.
+                        <p>I believe we are in an exciting time in the software industry in general, and in web development in particular. I would love to continue learning and contributing to this industry, adapting to the changes ahead and doing my bit in interesting and challenging projects.
                         </p>
                         <p>If you need an enthusiastic and committed web developer for your next project, don't hesitate to contact me - I look forward to working with you!
                         </p>
