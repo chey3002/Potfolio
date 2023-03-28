@@ -4,8 +4,8 @@ export const experiencia = [
         locacion: "Cuenca, Azuay, Ecuador",
         cargo: "FullStack Developer",
         fecha: "September 2020 — October 2022",
-        actividades:
-            "Development of payment gateway(FrontEnd and Backend) with Django, and relational databases. In addition to this, plugins were developed for Wordpress and Prestashop, using PHP.",
+        actividades: ["Development of a payment gateway (FrontEnd and Backend) with Django and relational databases",
+                    "Development of plugins for Wordpress and Prestashop using PHP"],
     },
     {
         empresa: "Banco del Austro",
@@ -13,7 +13,8 @@ export const experiencia = [
         cargo: "Development and QA Engineer",
         fecha: "May 2020 — October 2022",
         actividades:
-            "Verification of the operation of various applications to know their current status and migrate to new technologies. Additionally, mobile application tests were performed.",
+            ["Verification of the operation of various applications and migration status of them to new technologies",
+                "Mobile applications testing"],
     },
     {
         empresa: "Kodeliv - SAS",
@@ -21,33 +22,26 @@ export const experiencia = [
         cargo: "Front-end Developer",
         fecha: "October 2020 — April 2022",
         actividades:
-            "Development of web applications using React, html, css, sass, and Firebase",
+            ["Development of web applications using React, html, css, sass, and Firebase"],
     },
     {
         empresa:
-            "Superintendencia de Ordenamiento Territorial, Uso y Gestión del Suelo",
+            "Superintendency of Territorial Planning, Use and Land Management",
         locacion: "Cuenca, Azuay, Ecuador",
         cargo: "Web Developer",
         fecha: "August 2019 — September 2019",
         actividades:
-            "Development of a web application for user and file management for the GADs, in a nonSQL database",
-    },
+[            "Development of a web application for user and file management for the Decentralized Autonomous Governments (GAD's), using javascript, bootstrap, and MongoDB",
+]    },
 ];
 export const education = [
     {
         carrera: "Software Engineering",
         institucion: "Universidad Católica de Cuenca",
         fecha: "Present",
-        location:"Cuenca, Ecuador",
+        location: "Cuenca, Ecuador",
     },
 ];
-export interface Skill {
-    name: string;
-    color: string;
-    textColor: string;
-    id: string;
-
-}
 export const skills = [
     {
         name: "React",

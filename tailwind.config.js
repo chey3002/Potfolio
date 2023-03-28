@@ -35,6 +35,24 @@ module.exports = {
                     "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
                 poligon: "url('/img/PolygonLuminary.svg')",
             },
+            fontFamily: {
+                "sans": ['"Inter"',
+                    'system-ui',
+                    '-apple-system',
+                    'BlinkMacSystemFont',
+                    '"Helvetica Neue"',
+                    'Roboto',
+                    
+                    '"Segoe UI"',
+
+                    'Arial',
+                    '"Noto Sans"',
+                    'sans-serif',
+                    '"Apple Color Emoji"',
+                    '"Segoe UI Emoji"',
+                    '"Segoe UI Symbol"',
+                    '"Noto Color Emoji"',],
+            }
         },
     },
     plugins: [],

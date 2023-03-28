@@ -9,9 +9,9 @@ export default function HeroBanner() {
                       Hi, I'm <br></br>
                       <b>Carlos Valladarez</b>
                   </h1>
-                  <p className="text-xl sm:text-3xl text-neonPink2 drop-shadow-neonPinkGlow ">
+                  <h1 className="text-xl sm:text-3xl text-neonPink2 drop-shadow-neonPinkGlow ">
                       FrontEnd developer
-                  </p>
+                  </h1>
                   <p className="mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed">
                       FrontEnd Developer specialized in React and Next.js with skills in JavaScript, SQL and NoSQL databases, and knowledge in Java, Python, and PHP.
                   </p>
