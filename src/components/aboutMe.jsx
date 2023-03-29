@@ -8,8 +8,7 @@ export default function AboutMe() {
                     About Me
                 </h1>
             </header>
-            <div className="w-11/12 mx-auto">
-                <div className="md:grid md:grid-cols-2 mt-5">
+            <article className="w-11/12 mx-auto md:grid md:grid-cols-2 mt-5">
                     <div className='flex flex-col gap-2 max-w-[70ch] m-auto'>
                         <p>Hi! I'm Carlos Valladarez, a web developer focused on the frontend, but with experience in the backend as well. Since I was a teenager I've loved programming, and I found web development a more visual and entertaining way to bring ideas to life.
                         </p>
@@ -25,8 +24,7 @@ export default function AboutMe() {
                     <div className='md:grid place-content-center hidden'>
                         <img className='drop-shadow-neonPinkGlow h-auto w-full max-w-xs' src="/img/punpun2.png" alt="avatar" />
                     </div>
-                </div>
-            </div>
+            </article>
         </section>
     )
 }

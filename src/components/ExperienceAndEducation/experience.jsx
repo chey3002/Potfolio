@@ -6,20 +6,20 @@ export default function Experience({experience}) {
     return (
         <>
             {experience && (
-                <div className='md:w-9/12 mx-auto my-3'>
-                    <div className='flex justify-between drop-shadow-neonPinkGlow sm:text-lg'>
-                        <span >{empresa} | {locacion} </span>
+                <article className='md:w-9/12 mx-auto my-3'>
+                    <header className='flex justify-between drop-shadow-neonPinkGlow sm:text-lg'>
+                        <h3 >{empresa} | {locacion} </h3>
                         <span >{fecha}</span>
                         
-                    </div>
+                    </header>
                     <p className='sm:text-lg text-neonPink font-semibold'>{cargo} </p>
                     <ul className='list-disc'>
-                        {actividades.map(activity => {
-                            return <li className='text-neonPurple '><p className='text-white'>{activity}</p></li>
+                        {actividades.map((activity,index) => {
+                            return <li className='text-neonPurple ' key={index}><p className='text-white'>{activity}</p></li>
                         })}
                     </ul>
                     <hr className='sm:w-11/12 mx-auto mt-5 text-neonPink drop-shadow-neonPinkGlow'/>
-                </div>
+                </article>
             )}
         </>
     );

@@ -4,7 +4,7 @@ import Tag from './tag';
 
 export default function TagContainer() {
     return (
-        <div>
+        <section>
             <h2 className="text-neonPink2 drop-shadow-neonPinkGlow  w-fit sm:text-xl sm:leading-relaxed">
                 My skills
             </h2>
@@ -14,7 +14,7 @@ export default function TagContainer() {
                     return <Tag key={skill.name} skill={skill} />;
                 })}
             </p>
-        </div>
+        </section>
       
   )
 }

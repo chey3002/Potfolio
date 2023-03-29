@@ -6,14 +6,14 @@ export default function Education({education}) {
     return (
         <>
             {education && (
-                <div className='md:w-10/12 mx-auto my-3'>
-                    <div className='flex justify-between drop-shadow-neonPinkGlow sm:text-lg'>
-                        <span >{carrera} | {location} </span>
+                <article className='md:w-10/12 mx-auto my-3'>
+                    <header className='flex justify-between drop-shadow-neonPinkGlow sm:text-lg'>
+                        <h3 >{carrera} | {location} </h3>
                         <span >{fecha}</span>
 
-                    </div>
+                    </header>
                     <p>{institucion}</p>
-                </div>
+                </article>
             )}
         </>
     );
