@@ -22,7 +22,7 @@ export default function AboutMe() {
                         </p>
                     </div>
                     <div className='md:grid place-content-center hidden'>
-                        <img className='drop-shadow-neonPinkGlow h-auto w-full max-w-xs' src="/img/punpun2.png" alt="avatar" />
+                        <img className='drop-shadow-Nextjs h-auto w-full max-w-md' src="/img/avatar.png" alt="avatar" width="auto" height="auto"/>
                     </div>
             </article>
         </section>
