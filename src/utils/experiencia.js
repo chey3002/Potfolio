@@ -11,7 +11,7 @@ export const experiencia = [
         empresa: "Banco del Austro",
         locacion: "Cuenca, Azuay, Ecuador",
         cargo: "Development and QA Engineer",
-        fecha: "May 2020 — October 2022",
+        fecha: "May 2022 — October 2022",
         actividades:
             ["Verification of the operation of various applications and migration status of them to new technologies",
                 "Mobile applications testing"],
