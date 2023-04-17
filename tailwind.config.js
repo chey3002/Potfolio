@@ -28,6 +28,7 @@ module.exports = {
                 Java: "0px 0px 3px #0674be",
                 Python: "0px 0px 3px #ffd43b",
                 Php: "0px 0px 3px #8694c1",
+                TailwindCss:"0px 0px 3px #01b7d6",
             },
             backgroundImage: {
                 "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

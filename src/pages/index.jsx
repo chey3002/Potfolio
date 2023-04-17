@@ -6,6 +6,7 @@ import ExperienciayEducacion from '../components/ExperienceAndEducation/experien
 import Head from 'next/head';
 import AboutMe from '../components/aboutMe';
 import ContacMe from '../components/contacMe';
+import Projects from '../components/Projects/projects';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function Home() {
             <main className="flex min-h-screen flex-col items-center justify-between ml-20 gap-5 font-sans">
                 <HeroBanner/>
                 <ExperienciayEducacion />
+                <Projects/>
                 <AboutMe />
             </main>
             <footer className="flex py-5 flex-col items-center justify-between ml-20 gap-5 font-sans">

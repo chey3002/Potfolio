@@ -80,6 +80,12 @@ export const skills = [
         id: "HtmlCss",
     },
     {
+        name: "Tailwind CSS",
+        color: "#01b7d6",
+        textColor: "#222222",
+        id: "TailwindCss",
+    },
+    {
         name: "Java",
         color: "#0a6bb1",
         textColor: "#ff6526",
