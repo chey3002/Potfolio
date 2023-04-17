@@ -1,2 +1,5 @@
 #My Portfolio
-This is my wip portfolio, uwu
+
+I builded this portfolio with Next.js and tailwind
+
+I also used this [Color Palette](https://www.color-hex.com/color-palette/108463)
