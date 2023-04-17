@@ -3,7 +3,7 @@ export const experiencia = [
         empresa: "Proyetic.SAS",
         locacion: "Cuenca, Azuay, Ecuador",
         cargo: "FullStack Developer",
-        fecha: "September 2020 — October 2022",
+        fecha: "September 2022 — October 2022",
         actividades: ["Development of a payment gateway (FrontEnd and Backend) with Django and relational databases",
                     "Development of plugins for Wordpress and Prestashop using PHP"],
     },
