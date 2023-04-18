@@ -13,7 +13,7 @@ export default function HeroBanner() {
                         FrontEnd developer
                     </h1>
                     <p className="mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed">
-                        FrontEnd Developer specialized in React and Next.js with skills in JavaScript, SQL and NoSQL databases, and knowledge in Java, Python, and PHP.
+                        Specialized in React and Next.js with skills in JavaScript, SQL and NoSQL databases, and knowledge in Java, Python, and PHP.
                     </p>
                     <p className="mx-auto max-w-xl sm:text-xl sm:leading-relaxed">
                         Currently pursuing a degree in Software Engineering.
