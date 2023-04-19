@@ -2,11 +2,11 @@ import React from 'react'
 
 export default function AboutMe() {
     return (
-        <section className=" w-full sm:h-screen sm:grid sm:place-content-center" id="About">
-            <header className="w-fit mx-auto text-neonPink2 drop-shadow-neonPinkGlow  sm:text-2xl sm:leading-relaxed">
-                <h1>
+        <section className=" w-full sm:h-screen flex flex-col content-evenly sm:place-content-center" id="About">
+            <header className="w-fit mx-auto text-neonPink2 drop-shadow-neonPinkGlow text-3xl  sm:text-5xl sm:leading-relaxed">
+                <h2>
                     About Me
-                </h1>
+                </h2>
             </header>
             <article className="w-11/12 mx-auto md:grid md:grid-cols-2 mt-5">
                     <div className='flex flex-col gap-2 max-w-[70ch] m-auto'>

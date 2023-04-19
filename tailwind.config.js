@@ -18,7 +18,6 @@ module.exports = {
         },
         extend: {
             dropShadow: {
-                neonPinkGlow: "0px 0px 3px 	#e600ac",
                 React: "0px 0px 3px #00dcff",
                 Nextjs: "0px 0px 3px #fff",
                 Javascript: "0px 0px 3px #F0DB4F",
@@ -43,9 +42,7 @@ module.exports = {
                     'BlinkMacSystemFont',
                     '"Helvetica Neue"',
                     'Roboto',
-                    
                     '"Segoe UI"',
-
                     'Arial',
                     '"Noto Sans"',
                     'sans-serif',
