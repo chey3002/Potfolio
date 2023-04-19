@@ -14,7 +14,7 @@ export default function Home() {
     return (
         <>
             <Head>
-        <meta property="og:title" content="Carlos Valladarez Portfolio" key="title" />
+        < title>Carlos Valladarez Portfolio </title> 
         <meta
           name="description"
           content="FrontEnd Developer specialized in React and Next.js with skills in JavaScript, SQL and NoSQL databases, and knowledge in Java, Python, and PHP. Currently pursuing a degree in Software "
