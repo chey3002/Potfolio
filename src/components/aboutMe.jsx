@@ -10,7 +10,7 @@ export default function AboutMe() {
             </header>
             <article className="w-11/12 mx-auto md:grid md:grid-cols-2 mt-5">
                     <div className='flex flex-col gap-2 max-w-[70ch] m-auto'>
-                        <p>Hi! I'm Carlos Valladarez, a web developer focused on the frontend, but with experience in the backend as well. Since I was a teenager I've loved programming, and I found web development a more visual and entertaining way to bring ideas to life.
+                        <p>Hey! I'm Carlos Valladarez, a web developer focused on the frontend, but with experience in the backend as well. Since I was a teenager I've loved programming, and I found web development a more visual and entertaining way to bring ideas to life.
                         </p>
                         <p>I started my career in web development a couple years ago, working in startups and companies. One of my favorite projects has been with Kodeliv, a startup among friends where we learned a lot about web development, especially React and Next.js, becoming my favorite framework.
                         </p>
