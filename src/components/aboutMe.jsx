@@ -8,7 +8,7 @@ export default function AboutMe() {
                     About Me
                 </h2>
             </header>
-            <article className="w-11/12 mx-auto md:grid md:grid-cols-2 mt-5">
+            <article className=" mx-auto md:grid md:grid-cols-2 mt-5">
                     <div className='flex flex-col gap-2 max-w-[70ch] m-auto'>
                         <p>Hey! I'm Carlos Valladarez, a web developer focused on the frontend, but with experience in the backend as well. Since I was a teenager I've loved programming, and I found web development a more visual and entertaining way to bring ideas to life.
                         </p>
