@@ -3,8 +3,8 @@ import Github from './icons/github'
 
 export default function HeroBanner() {
     return (
-        <section className="bg-poligon bg-cover bg-bottom w-full">
-            <article className="  mx-auto w-10/12  sm:align-bottom  py-24 sm:flex sm:h-max sm:items-center">
+        <section className="bg-poligon bg-cover bg-bottom w-full ">
+            <article className="  mx-auto w-10/12  sm:align-bottom  py-24 sm:flex sm:h-screen sm:items-center">
                 <div className=" max-w-3xl">
                     <h1 className="text-neonPink drop-shadow-neonPinkGlow text-5xl sm:text-7xl">
                         <b>Carlos Valladarez</b>
