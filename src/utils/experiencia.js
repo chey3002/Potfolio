@@ -1,11 +1,25 @@
 export const experiencia = [
     {
+        empresa: "Black Horse Software Company.SAS",
+        locacion: "Cuenca, Azuay, Ecuador",
+        cargo: "FullStack Developer",
+        fecha: "September 2022 — October 2022",
+        actividades: ["Microservices development with Spring Boot and Kotlin",
+            "XML handling with jdom2",
+            "Using Kafka for asynchronous communication between services",
+            "Using Quartz to schedule processes",
+            "Development of fullstack functionalities",
+            "JSF and Primefaces",
+            "React and Electron"
+        ],
+    },
+    {
         empresa: "Proyetic.SAS",
         locacion: "Cuenca, Azuay, Ecuador",
         cargo: "FullStack Developer",
         fecha: "September 2022 — October 2022",
         actividades: ["Development of a payment gateway (FrontEnd and Backend) with Django and relational databases",
-                    "Development of plugins for Wordpress and Prestashop using PHP"],
+            "Development of plugins for Wordpress and Prestashop using PHP"],
     },
     {
         empresa: "Banco del Austro",
@@ -31,8 +45,9 @@ export const experiencia = [
         cargo: "Web Developer",
         fecha: "August 2019 — September 2019",
         actividades:
-[            "Development of a web application for user and file management for the Decentralized Autonomous Governments (GAD's), using javascript, bootstrap, and MongoDB",
-]    },
+            ["Development of a web application for user and file management for the Decentralized Autonomous Governments (GAD's), using javascript, bootstrap, and MongoDB",
+            ]
+    },
 ];
 export const education = [
     {
