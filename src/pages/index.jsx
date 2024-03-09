@@ -7,6 +7,8 @@ import Head from 'next/head';
 import AboutMe from '../components/aboutMe';
 import ContacMe from '../components/contacMe';
 import Projects from '../components/Projects/projects';
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -27,6 +29,8 @@ export default function Home() {
                 <ExperienciayEducacion />
                 <Projects />
                 <AboutMe />
+                <Analytics />
+                <SpeedInsights />
             </main>
             <footer className="flex py-5 flex-col items-center justify-between ml-20 gap-5 font-sans">
                 <ContacMe />
