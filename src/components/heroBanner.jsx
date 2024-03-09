@@ -4,7 +4,7 @@ import Github from './icons/github'
 export default function HeroBanner() {
     return (
         <section className="bg-poligon bg-cover bg-bottom w-full">
-            <article className="  mx-auto w-10/12  sm:align-bottom  py-24 sm:flex sm:h-screen sm:items-center">
+            <article className="  mx-auto w-10/12  sm:align-bottom  py-24 sm:flex sm:h-max sm:items-center">
                 <div className=" max-w-3xl">
                     <h1 className="text-neonPink drop-shadow-neonPinkGlow text-5xl sm:text-7xl">
                         <b>Carlos Valladarez</b>
@@ -24,16 +24,16 @@ export default function HeroBanner() {
                             className="flex gap-2 sm:w-56 w-full justify-center align-middle  drop-shadow-neonPinkGlow text-center  rounded border border-neonPink2 px-12 py-3 text-xl font-medium text-white  ease-in-out hover:bg-neonPink2 focus:outline-none focus:ring active:bg-blue-500 "
                             href="https://github.com/chey3002"
                         >
-                            <Github/>
+                            <Github />
                             <span>Github</span>
                         </a>
                         <a
-                    className="flex gap-2 justify-center w-full sm:w-56 align-middle drop-shadow-neonPinkGlow text-center  rounded border border-neonPink px-12 py-3 text-xl font-medium text-white  ease-in-out hover:bg-neonPink hover:border-neonPink focus:outline-none focus:ring active:bg-blue-500 "
-                    href="/CV/CarlosValladarerzCVEn.pdf"
+                            className="flex gap-2 justify-center w-full sm:w-56 align-middle drop-shadow-neonPinkGlow text-center  rounded border border-neonPink px-12 py-3 text-xl font-medium text-white  ease-in-out hover:bg-neonPink hover:border-neonPink focus:outline-none focus:ring active:bg-blue-500 "
+                            href="/CV/CarlosValladarerzCVEn.pdf"
                         >
-                            
-                    <span className=''>Download CV</span>
-                </a>
+
+                            <span className=''>Download CV</span>
+                        </a>
                     </div>
                 </div>
             </article>

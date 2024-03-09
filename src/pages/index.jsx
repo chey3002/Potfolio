@@ -14,18 +14,18 @@ export default function Home() {
     return (
         <>
             <Head>
-        < title>Carlos Valladarez Portfolio </title> 
-        <meta
-          name="description"
-          content="FrontEnd Developer specialized in React and Next.js with skills in JavaScript, SQL and NoSQL databases, and knowledge in Java, Python, and PHP. Currently pursuing a degree in Software "
-        />
-        <link rel="shortcut icon" href="https://i.imgur.com/FjqhO9z.jpg" />
-      </Head>
-            <NavBar/>
+                < title>Carlos Valladarez Portfolio </title>
+                <meta
+                    name="description"
+                    content="FrontEnd Developer specialized in React and Next.js with skills in JavaScript, SQL and NoSQL databases, and knowledge in Java, Python, and PHP. Currently pursuing a degree in Software "
+                />
+                <link rel="shortcut icon" href="https://i.imgur.com/FjqhO9z.jpg" />
+            </Head>
+            <NavBar />
             <main className="flex min-h-screen flex-col items-center justify-between ml-20 gap-5 font-sans">
-                <HeroBanner/>
+                <HeroBanner />
                 <ExperienciayEducacion />
-                <Projects/>
+                <Projects />
                 <AboutMe />
             </main>
             <footer className="flex py-5 flex-col items-center justify-between ml-20 gap-5 font-sans">
