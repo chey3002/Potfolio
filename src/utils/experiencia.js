@@ -5,12 +5,12 @@ export const experiencia = [
         cargo: "FullStack Developer",
         fecha: "September 2022 — October 2022",
         actividades: ["Microservices development with Spring Boot and Kotlin",
-            "XML handling with jdom2",
-            "Using Kafka for asynchronous communication between services",
-            "Using Quartz to schedule processes",
+            "     XML handling with jdom2",
+            "     Using Kafka for asynchronous communication between services",
+            "     Using Quartz to schedule processes",
             "Development of fullstack functionalities",
-            "JSF and Primefaces",
-            "React and Electron"
+            "     JSF and Primefaces",
+            "     React and Electron"
         ],
     },
     {
