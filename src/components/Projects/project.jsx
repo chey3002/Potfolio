@@ -6,7 +6,6 @@ export default function Project({ myProject }) {
   const mySkills = myProject.tecnologies.map(tech => {
     return skills.filter(skill => skill.name === tech)[0]
   })
-  console.log(mySkills);
   return (
     <a className='min-w-xs lg:max-w-md max-w-sm flex justify-center align-middle' href={myProject.url}>
       <article className=' justify-center items-center border-2 border-neonPink2 rounded-lg p-4 m-4'>
