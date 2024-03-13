@@ -4,13 +4,14 @@ export const experiencia = [
         locacion: "Cuenca, Azuay, Ecuador",
         cargo: "FullStack Developer",
         fecha: "September 2022 — October 2022",
-        actividades: ["Microservices development with Spring Boot and Kotlin",
-            "     XML handling with jdom2",
-            "     Using Kafka for asynchronous communication between services",
-            "     Using Quartz to schedule processes",
+        actividades: [
+            "Microservices development with Spring Boot and Kotlin",
+            "&emsp;XML handling with jdom2",
+            "&emsp;Using Kafka for asynchronous communication between services",
+            "&emsp;Using Quartz to schedule processes",
             "Development of fullstack functionalities",
-            "     JSF and Primefaces",
-            "     React and Electron"
+            "&emsp;JSF and Primefaces",
+            "&emsp;React and Electron"
         ],
     },
     {
@@ -18,35 +19,38 @@ export const experiencia = [
         locacion: "Cuenca, Azuay, Ecuador",
         cargo: "FullStack Developer",
         fecha: "September 2022 — October 2022",
-        actividades: ["Development of a payment gateway (FrontEnd and Backend) with Django and relational databases",
-            "Development of plugins for Wordpress and Prestashop using PHP"],
+        actividades: [
+            "Development of a payment gateway (FrontEnd and Backend) with Django and relational databases",
+            "Development of plugins for Wordpress and Prestashop using PHP"
+        ],
     },
     {
         empresa: "Banco del Austro",
         locacion: "Cuenca, Azuay, Ecuador",
         cargo: "Development and QA Engineer",
         fecha: "May 2022 — October 2022",
-        actividades:
-            ["Verification of the operation of various applications and migration status of them to new technologies",
-                "Mobile applications testing"],
+        actividades: [
+            "Verification of the operation of various applications and migration status of them to new technologies",
+            "Mobile applications testing"
+        ],
     },
     {
         empresa: "Kodeliv - SAS",
         locacion: "Cuenca, Azuay, Ecuador",
         cargo: "Front-end Developer",
         fecha: "October 2020 — April 2022",
-        actividades:
-            ["Development of web applications using React, html, css, sass, and Firebase"],
+        actividades: [
+            "Development of web applications using React, html, css, sass, and Firebase"
+        ],
     },
     {
-        empresa:
-            "Superintendency of Territorial Planning, Use and Land Management",
+        empresa: "Superintendency of Territorial Planning, Use and Land Management",
         locacion: "Cuenca, Azuay, Ecuador",
         cargo: "Web Developer",
         fecha: "August 2019 — September 2019",
-        actividades:
-            ["Development of a web application for user and file management for the Decentralized Autonomous Governments (GAD's), using javascript, bootstrap, and MongoDB",
-            ]
+        actividades: [
+            "Development of a web application for user and file management for the Decentralized Autonomous Governments (GAD's), using javascript, bootstrap, and MongoDB"
+        ]
     },
 ];
 export const education = [
