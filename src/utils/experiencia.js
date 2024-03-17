@@ -63,6 +63,18 @@ export const education = [
 ];
 export const skills = [
     {
+        name: "Node.js",
+        color: "#00dcff",
+        textColor: "#222222",
+        id: "React",
+    },
+    {
+        name: "Electron",
+        color: "#00dcff",
+        textColor: "#222222",
+        id: "React",
+    },
+    {
         name: "React",
         color: "#00dcff",
         textColor: "#222222",
