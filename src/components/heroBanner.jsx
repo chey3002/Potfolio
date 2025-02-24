@@ -16,7 +16,7 @@ export default function HeroBanner() {
                         Specialized in React and Next.js with skills in JavaScript, SQL and NoSQL databases, and knowledge in Java, Python, and PHP.
                     </p>
                     <p className="mx-auto max-w-xl sm:text-xl sm:leading-relaxed">
-                        Currently pursuing a degree in Software Engineering.
+                        Software Engineer.
                     </p>
 
                     <div className="mt-8 flex flex-wrap justify-start gap-4">

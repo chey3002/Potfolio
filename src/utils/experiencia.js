@@ -57,7 +57,7 @@ export const education = [
     {
         carrera: "Software Engineering",
         institucion: "Universidad Católica de Cuenca",
-        fecha: "Present",
+        fecha: "2025",
         location: "Cuenca, Ecuador",
     },
 ];
