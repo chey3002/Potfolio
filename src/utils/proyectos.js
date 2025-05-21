@@ -1,5 +1,12 @@
 export const projects = [
     {
+        name: 'Pixel Art Editor',
+        url: 'https://github.com/chey3002/pixel-art',
+        img: 'https://i.imgur.com/theVg7v.png',
+        description: 'Pixel Art Editor is an interactive web application for creating pixel art. It allows you to draw, erase, and export your creations as PNG images. It includes a color picker, continuous painting, and right-click erasing.',
+        tecnologies: ['React', 'TypeScript', 'Vite', 'React Color', 'HTML to Image']
+    },
+    {
         name: 'Youtube Desktop Downloader',
         url: 'https://github.com/chey3002/yt-desktop-downloader',
         img: 'https://i.imgur.com/nFVI0xX.png',
