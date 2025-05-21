@@ -94,13 +94,13 @@ export const skills = [
     },
     {
         name: "React Color",
-        color: "#61dafb",
-        textColor: "#000000",
+        color: "#5c6ac4",
+        textColor: "#ffffff",
         id: "ReactColor",
     },
     {
         name: "HTML to Image",
-        color: "#e34c26",
+        color: "#2c3e50",
         textColor: "#ffffff",
         id: "HtmlToImage",
     },
