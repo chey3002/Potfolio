@@ -28,10 +28,7 @@ export default function Project({ myProject }) {
               return <Tag key={i} skill={skill} />;
             })}
           </div>
-
         </div>
-
-
       </article>
     </a>
   )
