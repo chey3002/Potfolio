@@ -28,3 +28,131 @@ body {
 html {
 	scroll-behavior: smooth;
 }
+
+/* Estilos para el carrusel */
+.carousel-container {
+    padding: 20px 0;
+    margin: 0;
+}
+
+.carousel-item-padding-40-px {
+    padding: 0 10px;
+}
+
+@media (min-width: 768px) {
+    .carousel-container {
+        margin: 0;
+    }
+    
+    .carousel-item-padding-40-px {
+        padding: 0 20px;
+    }
+}
+
+.custom-dot-list-style {
+    margin-top: 20px;
+    padding: 0;
+}
+
+.custom-dot-list-style li {
+    margin: 0 4px;
+}
+
+.custom-dot-list-style li button {
+    background: #e600ac;
+    border: none;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    padding: 0;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+@media (min-width: 768px) {
+    .custom-dot-list-style li {
+        margin: 0 5px;
+    }
+
+    .custom-dot-list-style li button {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+.custom-dot-list-style li.react-multi-carousel-dot--active button {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+/* Estilos para las flechas del carrusel */
+.react-multi-carousel-arrow {
+    background: rgba(230, 0, 172, 0.5) !important;
+    border-radius: 50%;
+    min-width: 30px;
+    min-height: 30px;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.react-multi-carousel-arrow--left {
+    left: 0;
+}
+
+.react-multi-carousel-arrow--right {
+    right: 0;
+}
+
+@media (min-width: 768px) {
+    .react-multi-carousel-arrow {
+        min-width: 40px;
+        min-height: 40px;
+    }
+
+    .react-multi-carousel-arrow--left {
+        left: 10px;
+    }
+
+    .react-multi-carousel-arrow--right {
+        right: 10px;
+    }
+}
+
+.react-multi-carousel-arrow:hover {
+    background: rgba(230, 0, 172, 0.8) !important;
+}
+
+.react-multi-carousel-arrow::before {
+    color: white !important;
+    font-size: 16px !important;
+}
+
+@media (min-width: 768px) {
+    .react-multi-carousel-arrow::before {
+        font-size: 20px !important;
+    }
+}
+
+/* Ajustes para móvil */
+@media (max-width: 767px) {
+    .carousel-container {
+        padding: 10px 0;
+    }
+
+    .carousel-item-padding-40-px {
+        padding: 0 5px;
+    }
+
+    .react-multi-carousel-track {
+        margin-left: 0;
+    }
+
+    .react-multi-carousel-arrow {
+        min-width: 25px;
+        min-height: 25px;
+    }
+
+    .react-multi-carousel-arrow::before {
+        font-size: 14px !important;
+    }
+}
