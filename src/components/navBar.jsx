@@ -9,7 +9,7 @@ export default function NavBar() {
         >
             <nav className="h-full bg-asideColor w-20  justify-between flex flex-col ">
                 <div className="mt-10 mb-10">
-                    <a href="#">
+                    <a href="/">
                         <img
                             alt='My logo'
                             src="https://i.imgur.com/FjqhO9z.jpg"
@@ -20,7 +20,7 @@ export default function NavBar() {
                         <ul>
                             <li className="group mb-6">
                                 <a
-                                    href="#Experience"
+                                    href="/#Experience"
                                     data-te-toggle="tooltip"
                                     data-te-placement="right"
                                     data-te-ripple-init
@@ -40,7 +40,7 @@ export default function NavBar() {
 
                             </li>
                             <li className="mb-6">
-                                <a href="#Projects"
+                                <a href="/#Projects"
                                     data-te-toggle="tooltip"
                                     data-te-placement="right"
                                     data-te-ripple-init
@@ -56,7 +56,7 @@ export default function NavBar() {
                                 </a>
                             </li>
                             <li className="mb-6">
-                                <a href="#About"
+                                <a href="/#About"
                                     data-te-toggle="tooltip"
                                     data-te-placement="right"
                                     data-te-ripple-init
@@ -71,8 +71,26 @@ export default function NavBar() {
                                     </span>
                                 </a>
                             </li>
+                            <li className="mb-6">
+                                <a href="/blog"
+                                    data-te-toggle="tooltip"
+                                    data-te-placement="right"
+                                    data-te-ripple-init
+                                    title="Blog"
+                                >
+                                    <span>
+                                        <svg
+                                            className="drop-shadow-neonPinkGlow fill-current h-7 w-7 text-neonPink mx-auto hover:text-white "
+                                            viewBox="0 0 32 32"
+                                        >
+                                            <title>blog</title>
+                                            <g><rect x="6" y="2" width="14" height="2"></rect><rect x="20" y="4" width="2" height="2"></rect><rect x="22" y="6" width="2" height="2"></rect><rect x="24" y="8" width="2" height="22"></rect><rect x="4" y="4" width="2" height="26"></rect><rect x="6" y="30" width="18" height="2"></rect><rect x="18" y="4" width="2" height="6"></rect><rect x="18" y="8" width="6" height="2"></rect><rect x="9" y="13" width="12" height="2"></rect><rect x="9" y="18" width="12" height="2"></rect><rect x="9" y="23" width="8" height="2"></rect></g>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </li>
                             <li>
-                                <a href="#Contact"
+                                <a href="/#Contact"
                                     data-te-toggle="tooltip"
                                     data-te-placement="right"
                                     data-te-ripple-init

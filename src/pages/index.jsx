@@ -16,10 +16,10 @@ export default function Home() {
     return (
         <>
             <Head>
-                < title>Carlos Valladarez Portfolio</title>
+                <title>Carlos Valladarez | Software Engineer & AI Specialist</title>
                 <meta
                     name="description"
-                    content="FrontEnd Developer specialized in React and Next.js with skills in JavaScript, SQL and NoSQL databases, and knowledge in Java, Python, and PHP. Currently pursuing a degree in Software "
+                    content="Software Engineer and AI Specialist with over 4 years building full-stack systems and AI-powered platforms: agentic workflows, RAG pipelines and LLM observability, with React, Next.js, Python and Java."
                 />
                 <link rel="shortcut icon" href="https://i.imgur.com/FjqhO9z.jpg" />
             </Head>

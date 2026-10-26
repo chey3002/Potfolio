@@ -18,22 +18,15 @@ module.exports = {
         },
         extend: {
             dropShadow: {
-                React: "0px 0px 3px #00dcff",
+                // El brillo blanco de la foto de «About Me».
                 Nextjs: "0px 0px 3px #fff",
-                Javascript: "0px 0px 3px #F0DB4F",
-                Sql: "0px 0px 3px #e48e00",
-                Nosql: "0px 0px 3px #84c564",
-                HtmlCss: "0px 0px 3px #ed5226",
-                Java: "0px 0px 3px #0674be",
-                Python: "0px 0px 3px #ffd43b",
-                Php: "0px 0px 3px #8694c1",
-                TailwindCss: "0px 0px 3px #01b7d6",
-                ReactColor: "0px 0px 3px #5c6ac4",
-                HtmlToImage: "0px 0px 3px #2c3e50",
-                Nodejs: "0px 0px 3px #00dcff",
-                Electron: "0px 0px 3px #00dcff",
-                TypeScript: "0px 0px 3px #007acc",
-                Vite: "0px 0px 3px #646cff",
+                // Un brillo por grupo de habilidades (tag.jsx).
+                tonoAi: "0px 0px 3px #e600ac",
+                tonoLenguajes: "0px 0px 3px #F0DB4F",
+                tonoFrontend: "0px 0px 3px #00dcff",
+                tonoBackend: "0px 0px 3px #84c564",
+                tonoDatos: "0px 0px 3px #e48e00",
+                tonoCloud: "0px 0px 3px #646cff",
             },
             backgroundImage: {
                 "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

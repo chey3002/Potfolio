@@ -9,14 +9,14 @@ export default function HeroBanner() {
                     <h1 className="text-neonPink drop-shadow-neonPinkGlow text-5xl sm:text-7xl">
                         <b>Carlos Valladarez</b>
                     </h1>
-                    <h1 className="text-3xl sm:text-5xl text-neonPink2 drop-shadow-neonPinkGlow ">
-                        FrontEnd developer
-                    </h1>
+                    <h2 className="text-3xl sm:text-5xl text-neonPink2 drop-shadow-neonPinkGlow ">
+                        Software Engineer | AI Specialist
+                    </h2>
                     <p className="mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed">
-                        Specialized in React and Next.js with skills in JavaScript, SQL and NoSQL databases, and knowledge in Java, Python, and PHP.
+                        Over 4 years designing, building and shipping full-stack systems and AI-powered platforms: agentic workflows, RAG pipelines and LLM observability, on top of React, Next.js, Python and Java.
                     </p>
-                    <p className="mx-auto max-w-xl sm:text-xl sm:leading-relaxed">
-                        Software Engineer.
+                    <p className="mx-auto mt-2 max-w-xl sm:text-xl sm:leading-relaxed">
+                        Master&apos;s in Artificial Intelligence, thesis defended.
                     </p>
 
                     <div className="mt-8 flex flex-wrap justify-start gap-4">
@@ -29,7 +29,7 @@ export default function HeroBanner() {
                         </a>
                         <a
                             className="flex gap-2 justify-center w-full sm:w-56 align-middle drop-shadow-neonPinkGlow text-center  rounded border border-neonPink px-12 py-3 text-xl font-medium text-white  ease-in-out hover:bg-neonPink hover:border-neonPink focus:outline-none focus:ring active:bg-blue-500 "
-                            href="/CV/CarlosValladarerzCVEn.pdf"
+                            href="/CV/Carlos_Valladarez_resume.pdf"
                         >
 
                             <span className=''>Download CV</span>

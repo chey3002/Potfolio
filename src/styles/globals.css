@@ -156,3 +156,98 @@ html {
         font-size: 14px !important;
     }
 }
+
+/* ── Los posts del blog ────────────────────────────────────────────────
+   El HTML sale de Markdown (utils/blog.js), así que no lleva clases de
+   Tailwind: se estiliza desde acá, con la paleta del sitio. Tailwind borra
+   los estilos por defecto de títulos, listas y tablas, por eso hay que
+   devolverlos. */
+.post {
+    max-width: 70ch;
+    font-size: 1.0625rem;
+    line-height: 1.75;
+}
+.post .post-titulo {
+    margin: 0.25rem 0 1.5rem;
+    font-size: clamp(1.9rem, 4vw, 2.75rem);
+    line-height: 1.15;
+    font-weight: 700;
+    color: #e600ac;
+    text-wrap: balance;
+}
+.post h2 {
+    margin: 2.75rem 0 0.75rem;
+    font-size: 1.75rem;
+    line-height: 1.25;
+    font-weight: 700;
+    color: #c200b6;
+    text-wrap: balance;
+}
+.post h3 {
+    margin: 2rem 0 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #e600ac;
+}
+.post p { margin: 0 0 1.1rem; }
+.post em { color: rgba(255, 255, 255, 0.85); }
+.post strong { font-weight: 700; color: #ffffff; }
+.post a { color: #e600ac; text-decoration: underline; text-underline-offset: 3px; }
+.post a:hover { color: #ffffff; }
+.post ul, .post ol { margin: 0 0 1.1rem; padding-left: 1.5rem; }
+.post ul { list-style: disc; }
+.post ol { list-style: decimal; }
+.post li { margin: 0.35rem 0; }
+.post li::marker { color: #c200b6; }
+.post hr {
+    margin: 2.5rem 0;
+    border: 0;
+    border-top: 1px solid #7000a5;
+}
+.post img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1.75rem auto;
+    border-radius: 8px;
+    border: 1px solid #7000a5;
+}
+.post code {
+    font-family: ui-monospace, Consolas, monospace;
+    font-size: 0.9em;
+    padding: 0.1rem 0.3rem;
+    border-radius: 4px;
+    background: #06008c;
+}
+.post pre {
+    margin: 0 0 1.25rem;
+    padding: 1rem;
+    overflow-x: auto;
+    border-radius: 8px;
+    background: #06008c;
+}
+.post pre code { padding: 0; background: none; }
+.post blockquote {
+    margin: 0 0 1.1rem;
+    padding-left: 1rem;
+    border-left: 3px solid #c200b6;
+}
+/* Las tablas anchas scrollean solas, sin empujar la página. */
+.post table {
+    display: block;
+    overflow-x: auto;
+    margin: 0 0 1.5rem;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    font-variant-numeric: tabular-nums;
+}
+.post th, .post td {
+    /* Sin piso, en un celular cada columna se angosta a una palabra por linea:
+       con el, la tabla se desplaza de costado dentro de su caja. */
+    min-width: 9rem;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid #7000a5;
+    text-align: left;
+    vertical-align: top;
+}
+.post th { color: #e600ac; font-weight: 600; }
