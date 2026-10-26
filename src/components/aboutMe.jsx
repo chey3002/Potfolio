@@ -10,15 +10,15 @@ export default function AboutMe() {
             </header>
             <article className=" mx-auto md:grid md:grid-cols-2 mt-5">
                 <div className='flex flex-col gap-2 max-w-[70ch] m-auto'>
-                    <p>Hey! I'm Carlos Valladarez, a web developer focused on the frontend, but with experience in the backend as well. Since I was a teenager I've loved programming, and I found web development a more visual and entertaining way to bring ideas to life.
+                    <p>Hey! I&apos;m Carlos Valladarez, a software engineer from Cuenca, Ecuador. I&apos;ve loved programming since I was a teenager, and for more than 4 years I&apos;ve been building full-stack systems, from React and Next.js interfaces to Java, Python and Spring Boot backends.
                     </p>
-                    <p>I started my career in web development a couple years ago, working in startups and companies. One of my favorite projects has been with Kodeliv, a startup among friends where we learned a lot about web development, especially React and Next.js, becoming my favorite framework.
+                    <p>I started in web development at Kodeliv, a startup among friends where React and Next.js became my favorite tools. Since then I&apos;ve worked on payment gateways, banking software, a patient-management tool for a clinical research unit, and enterprise applications with a design system that cut time-to-market by 40%.
                     </p>
-                    <p>I consider myself a problem solver and I'm always looking for creative and efficient ways to solve the challenges that arise. In addition, I keep up to date on the latest trends and technologies in web development via Twitter, YouTube and Twitch.
+                    <p>Today I work at Ensolvers, building AI-powered platforms: agentic workflows with LangGraph, RAG pipelines on top of vector databases, and the observability that keeps LLMs honest in production. I recently defended my thesis for a Master&apos;s in Artificial Intelligence, focused on RAG and generative AI workflows.
                     </p>
-                    <p>I believe we are in an exciting time in the software industry in general, and in web development in particular. I would love to continue learning and contributing to this industry, adapting to the changes ahead and doing my bit in interesting and challenging projects.
+                    <p>I like owning problems end to end, especially the ambiguous ones, and measuring whether a solution actually works. In my free time I build things like PAB, a Chrome extension that suggests the best move in Pokémon battles, backed by a neural network I trained.
                     </p>
-                    <p>If you need an enthusiastic and committed web developer for your next project, don't hesitate to contact me - I look forward to working with you!
+                    <p>I speak Spanish natively and English at an advanced level. If you have an interesting project in mind, don&apos;t hesitate to contact me. I&apos;d love to hear about it!
                     </p>
                 </div>
                 <div className='md:grid place-content-center hidden'>
