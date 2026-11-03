@@ -68,6 +68,7 @@ That last rule turned out to be the most important one.
 | September | Let the network practice by playing against itself | It became the strongest player of the project |
 | October | Teach the computer to think one turn ahead | Not better on its own, useful with the network's help |
 | 20 October | Publish | Submitted to the Chrome Web Store |
+| 2 November | Put the network inside the extension | It now recommends with the network, in the browser |
 
 ---
 
@@ -442,11 +443,10 @@ The extension adds a panel next to your battle, as its own tab inside Showdown.
   Pokémon on your bench would take if you switched in, and stats.
 - **What your opponent is probably carrying**, with the options that have been
   ruled out, and fields you can edit when you know better.
-- **Two ways to decide**, with a switch at the top of the panel: "Rules",
-  the rule-based player, which is the default, or "Search", which explains
-  itself in terms of your opponent, for example "if
-  they use Magma Storm, you come out ahead". It takes 3 to 4 milliseconds per
-  turn in the browser.
+- **Three ways to decide**, with a switch at the top of the panel:
+  "Network", the trained network, which is the default; "Rules", the
+  rule-based player; and "Search", which explains itself in terms of your
+  opponent, for example "if they use Magma Storm, you come out ahead".
 
 ![The panel: what your opponent is probably carrying](imagenes/panel-set-inference.png)
 
@@ -466,13 +466,22 @@ Two problems from building it:
   that background process too, still without being able to send anything, and
   added an automated test against the real Showdown site so it can't break
   silently again.
-- **The network doesn't fit in the extension.** It's 9 MB, the whole extension
-  is 2 MB, and compressing the network broke it. So the extension uses the
-  rule-based player by default, and the network stays on my computer for now.
+- **Getting the network into the extension.** The network's weights take
+  9 MB, and the main script of the extension has a 2.6 MB budget. Compressing
+  the network broke it, so the first published version used the rule-based
+  player and left the network on my computer. The fix was to stop forcing it
+  into that script: the weights now ship as a separate file inside the
+  extension, and I rewrote the network's calculations in TypeScript, the
+  language the extension is written in, so it runs in the browser with no
+  extra software. To be sure it's the same network and not an approximation,
+  I checked it against the original on 10,475 real decisions (it picked the
+  same move every time) and on 3,000 battles, which played out turn for turn
+  the same. It decides in about 37 milliseconds per turn.
 
 The extension is called **"PAB: tactical assistant"**. I left "Pokémon" out of
-the name, since it's a trademark. I submitted it to the Chrome Web Store on
-20 October, and it's under review.
+the name, since it's a trademark. It's
+[published on the Chrome Web Store](https://chromewebstore.google.com/detail/pab-asistente-t%C3%A1ctico/bngfcehdimilmmaklgffelflfelcdjbc),
+and since version 0.3.0 it recommends with the network.
 
 ---
 
@@ -498,5 +507,6 @@ the name, since it's a trademark. I submitted it to the Chrome Web Store on
   project never tried is looking further ahead.
 - **More practice games, using Terastallization.** The network learned when to
   Terastallize from human replays, but its practice games never used it.
-- **The network inside the extension**, which means making it smaller.
-- And waiting for the Chrome Web Store review.
+- **A smaller network file.** Storing the weights with half the precision
+  would cut the download in half; I need to check it still picks the same
+  moves.
